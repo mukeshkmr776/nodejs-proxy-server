@@ -1,0 +1,19 @@
+{
+  "name": "node-web-proxy-server",
+  "version": "1.0.0",
+  "description": "A minimalist proxy Web Server with Node.js",
+  "main": "server-proxy.js",
+  "scripts": {
+    "start:apps": "node apps/index.js",
+    "start:proxy-server": "node proxy-server/server-proxy.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "Mukesh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http-proxy-middleware": "^1.0.3",
+    "yargs": "^15.3.1"
+  }
+}
